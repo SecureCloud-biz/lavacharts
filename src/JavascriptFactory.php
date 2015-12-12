@@ -230,7 +230,7 @@ class JavascriptFactory
         ).PHP_EOL;
 
         $out .= sprintf(
-            'lava.register("%s", "%s");',
+            'lava.registerChart("%s", "%s");',
             $this->chart->type,
             $this->chart->label
         ).PHP_EOL.PHP_EOL;
